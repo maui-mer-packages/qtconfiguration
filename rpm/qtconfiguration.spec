@@ -10,7 +10,7 @@ URL:            https://github.com/mauios/qtconfiguration
 Source0:        %{name}-%{version}.tar.xz
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(dconf)
-BuildRequires:  python
+BuildRequires:  cmake
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
 

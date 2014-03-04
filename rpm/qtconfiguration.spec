@@ -9,6 +9,7 @@ License:        LGPLv2 with exceptions or GPLv3 with exceptions
 URL:            https://github.com/mauios/qtconfiguration
 Source0:        %{name}-%{version}.tar.xz
 BuildRequires:  pkgconfig(Qt5Core)
+BuildRequires:  pkgconfig(Qt5Qml)
 BuildRequires:  pkgconfig(dconf)
 BuildRequires:  cmake
 Requires(post): /sbin/ldconfig
@@ -53,6 +54,7 @@ rm -f %{buildroot}/%{_libdir}/*.la
 %files
 %defattr(-,root,root,-)
 %{_libdir}/libqtconfiguration.so.0*
+%{_libdir}/hawaii/qml/Hawaii/Configuration/
 %doc LICENSE.FDL
 %doc LICENSE.GPL
 %doc LICENSE.LGPL

@@ -12,6 +12,7 @@ BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
 BuildRequires:  pkgconfig(dconf)
 BuildRequires:  cmake
+Requires:       dconf
 Requires:       libdconf1
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig

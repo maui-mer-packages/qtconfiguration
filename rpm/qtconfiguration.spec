@@ -12,6 +12,7 @@ BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5Qml)
 BuildRequires:  pkgconfig(dconf)
 BuildRequires:  cmake
+Requires:       libdconf1
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
 
@@ -24,6 +25,7 @@ Settings API with change notifications.
 Summary:    Development files for %{name}
 Group:      Development/System
 Requires:   %{name} = %{version}-%{release}
+Requires:   dconf-devel
 
 %description devel
 %{summary}

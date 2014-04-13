@@ -1,6 +1,6 @@
 Name:           qtconfiguration
 Summary:        Qt Configuration library
-Version:        0.2.1
+Version:        0.3.0
 Release:        1
 
 # See LGPL_EXCEPTIONS.txt, LICENSE.GPL3, respectively, for exception details
